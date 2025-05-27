@@ -7,4 +7,7 @@ module.exports = {
     { type: "hotfix", section: "Hot Fixes", release: "patch" },
     { type: "chore", section: "Chores", release: false },
   ],
+  parserOpts: {
+    noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
+  },
 };
