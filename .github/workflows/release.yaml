@@ -46,3 +46,4 @@ jobs:
 
           git push --follow-tags origin master
           git push origin master
+          npx semantic-release
