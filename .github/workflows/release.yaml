@@ -29,15 +29,16 @@ jobs:
       - name: Run standard-version
         run: npm run release
 
+      - name: Show remote URL
+        run: git remote -v
+
       - name: Push new version with token
         env:
           GH_TOKEN2: ${{ secrets.GH_TOKEN2 }}
         run: |
-          git remote set-url origin https://x-access-token:$GH_TOKEN2@github.com/${{ github.repository }}
+          git remote remove origin
+          git remote add origin https://x-access-token:$GH_TOKEN2@github.com/${{ github.repository }}
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git push --follow-tags origin master
           git push origin master
-
-      - name: Show remote URL
-        run: git remote -v
