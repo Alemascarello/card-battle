@@ -31,8 +31,8 @@ jobs:
 
       - name: Push new version with token
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN2: ${{ secrets.GH_TOKEN2 }}
         run: |
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+          git remote set-url origin https://x-access-token:${GH_TOKEN2}@github.com/${{ github.repository }}
           git push --follow-tags origin master
           git push origin master
