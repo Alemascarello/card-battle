@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/Alemascarello/card-battle/compare/v0.0.10...v0.0.11) (2025-05-27)
+
+
+### Features
+
+* teste 1 ([0c47794](https://github.com/Alemascarello/card-battle/commit/0c47794cfe6c2159f192686fa9256dcec9411b27))
+
 ### [0.0.10](https://github.com/Alemascarello/card-battle/compare/v0.0.9...v0.0.10) (2025-05-27)
 
 ### [0.0.9](https://github.com/Alemascarello/card-battle/compare/v0.0.8...v0.0.9) (2025-05-27)
