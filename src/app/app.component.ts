@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CardComponent } from '../components/card/card.component';
 import { ICard } from './utils/types';
 import { CombatComponent } from './combat/combat.component';
+import VERSION from '../utils/version';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,6 @@ import { CombatComponent } from './combat/combat.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {}
+export class AppComponent {
+  public version: string = VERSION;
+}
