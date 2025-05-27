@@ -1,5 +1,6 @@
 module.exports = {
   bumpMinorPreMajor: true, // permite gerar 'minor' mesmo em 0.x.x
+  preset: "conventionalcommits",
   types: [
     { type: "feat", section: "Features", release: "minor" },
     { type: "improv", section: "Improvements", release: "patch" },
