@@ -9,7 +9,7 @@
     "release": "standard-version"
   },
   "release": {
-    "preset": "conventional"
+    "preset": "release.config.js"
   },
   "private": true,
   "dependencies": {
