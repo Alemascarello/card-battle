@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/Alemascarello/card-battle/compare/v0.0.11...v0.0.12) (2025-05-27)
+
+
+### Features
+
+* nova funcionalidade XPTO ([3bf5e42](https://github.com/Alemascarello/card-battle/commit/3bf5e426c7e2581c559f15e78dafe2a2e084bd29))
+
 ### [0.0.11](https://github.com/Alemascarello/card-battle/compare/v0.0.10...v0.0.11) (2025-05-27)
 
 
