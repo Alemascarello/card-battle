@@ -1,0 +1,55 @@
+:host {
+  .card {
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    width: 210px;
+
+    .name {
+      margin-top: 2%;
+      border-radius: 4px;
+      border: 1px solid black;
+      height: 10%;
+      width: 96%;
+    }
+
+    .hp-bar-container {
+      width: 96%;
+      height: 5%;
+      background-color: #900;
+      border: 1px solid black;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .hp-bar-fill {
+      height: 100%;
+      background-color: #48ff4f;
+      transition: width 0.3s ease;
+    }
+
+    .stats {
+      border-radius: 4px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      height: 20%;
+      margin-bottom: 2%;
+      width: 96%;
+
+      .stat-line {
+        color: #900;
+        width: 100%;
+        display: flex;
+
+        div {
+          margin-left: 5%;
+        }
+      }
+    }
+  }
+}
