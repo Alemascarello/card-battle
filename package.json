@@ -1,6 +1,6 @@
 {
   "name": "card-battle",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,8 @@
     "release": "standard-version --config release.config.js"
   },
   "release": {
-    "config": "release.config.js"
+    "config": "release.config.js",
+    "preset": "conventionalcommits"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +31,7 @@
     "@angular/cli": "^19.2.11",
     "@angular/compiler-cli": "^19.2.10",
     "@types/jasmine": "~5.1.0",
+    "conventional-changelog-conventionalcommits": "^9.0.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
