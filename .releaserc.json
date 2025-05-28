@@ -9,6 +9,7 @@
           { "type": "feat", "release": "minor" },
           { "type": "improv", "release": "patch" },
           { "type": "bugfix", "release": "patch" },
+          { "type": "fix", "release": "patch" },
           { "type": "hotfix", "release": "patch" },
           { "type": "chore", "release": false }
         ],
@@ -32,6 +33,7 @@
               { "type": "feat", "section": "Features" },
               { "type": "improv", "section": "Improvements" },
               { "type": "bugfix", "section": "Bug Fixes" },
+              { "type": "fix", "section": "Bug Fixes" },
               { "type": "hotfix", "section": "Hot Fixes" },
               { "type": "chore", "section": "Chores", "hidden": true }
             ]

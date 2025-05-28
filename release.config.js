@@ -12,6 +12,7 @@ module.exports = {
           { type: "feat", release: "minor", section: "Features" },
           { type: "improv", release: "patch", section: "Improvements" },
           { type: "bugfix", release: "patch", section: "Bug Fixes" },
+          { type: "fix", release: "patch", section: "Bug Fixes" },
           { type: "hotfix", release: "patch", section: "Hot Fixes" },
           { type: "chore", release: false, section: "Chores" },
         ],
