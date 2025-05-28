@@ -17,32 +17,27 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Configure Git user
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-      - name: Run standard-version
-        run: npm run release
-
-      - name: Show remote URL
-        run: git remote -v
-
-      - name: Push new version with token
+      - name: Setup remote with token
         env:
           GH_TOKEN2: ${{ secrets.GH_TOKEN2 }}
         run: |
           echo "🔐 Token iniciado com: ${GH_TOKEN2:0:5}..."
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
           git remote remove origin
           git remote add origin https://x-access-token:$GH_TOKEN2@github.com/${{ github.repository }}
           git remote -v
 
-          git push --follow-tags origin master
-          git push origin master
+      - name: Run Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN2 }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
