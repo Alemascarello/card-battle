@@ -8,9 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "release": "standard-version"
   },
-  "release": {
-    "config": "release.config.js"
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.2.10",
