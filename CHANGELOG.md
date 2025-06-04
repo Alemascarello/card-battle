@@ -1,3 +1,11 @@
+## 0.2.0 (2025-06-04)
+
+* Merge branch 'master' into release/v0.1.2-teste ([ad64128dd497485d019703df202f002999adbb98](https://github.com/Alemascarello/card-battle/commit/ad64128dd497485d019703df202f002999adbb98))
+* Merge pull request #58 from Alemascarello/feat/implementa-teste-Jalis ([3f80afae795180f01f6e689280f4fd76f605973e](https://github.com/Alemascarello/card-battle/commit/3f80afae795180f01f6e689280f4fd76f605973e)), closes [#58](https://github.com/Alemascarello/card-battle/issues/58)
+* Merge pull request #59 from Alemascarello/release/v0.1.2-teste ([60ac1ebe24d869f20bbebb1f84343cbb29f2f419](https://github.com/Alemascarello/card-battle/commit/60ac1ebe24d869f20bbebb1f84343cbb29f2f419)), closes [#59](https://github.com/Alemascarello/card-battle/issues/59)
+* feat: gor(123) ajsbdkabsd ([3612f4219fdfaf879a3d42943fe186564319e363](https://github.com/Alemascarello/card-battle/commit/3612f4219fdfaf879a3d42943fe186564319e363))
+* release: v0.1.2 ([b88173d07ef40d357d4f02dfe4f53f0f4e0e1786](https://github.com/Alemascarello/card-battle/commit/b88173d07ef40d357d4f02dfe4f53f0f4e0e1786))
+
 ## <small>0.1.1 (2025-05-28)</small>
 
 * Merge pull request #55 from Alemascarello/master ([59438feed88adbe2b76f18b5181b808924512684](https://github.com/Alemascarello/card-battle/commit/59438feed88adbe2b76f18b5181b808924512684)), closes [#55](https://github.com/Alemascarello/card-battle/issues/55)
